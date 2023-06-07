@@ -6,11 +6,23 @@ function App() {
       backgroundColor: 'black',
       width: '100%',
       height: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
     };
   
-    return <div style={containerStyle}></div>;
+    const titleStyle = {
+      color: 'red',
+      textAlign: 'center',
+    };
+  
+    return (
+      <div style={containerStyle}>
+        <h1 style={titleStyle}>Compax</h1>
+      </div>
+    );
   }
-
+  
     
 
 export default App;
