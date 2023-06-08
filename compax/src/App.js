@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import  useEffect from "react";
 
-function App() {
+ /*function App() {
     const containerStyle = {
       backgroundColor: 'black',
       width: '100%',
@@ -22,7 +22,7 @@ function App() {
         <h1 style={titleStyle}>Compax</h1>
       </div>
     );
-  }
+  } */
   
     
 
