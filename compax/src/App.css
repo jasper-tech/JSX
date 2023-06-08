@@ -16,9 +16,9 @@
   
   @keyframes animateText {
     0% {
-      left: -100%; /* Initial position of the text outside the screen on the left */
+      left: -100%; /*Text enters the screen on the left */
     }
     100% {
-      left: 100%; /* Final position of the text outside the screen on the right */
+      left: 100%; /* Text goes out through the right */
     }
   }
