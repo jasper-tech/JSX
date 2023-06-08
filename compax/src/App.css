@@ -8,19 +8,17 @@
 
 }
 
-.animated-heading{
+.animated-heading {
     color: red;
-    animation: animateText Is infinite alternate;
-
-}
-
-@keyframes animateText {
+    position: absolute; /* Allows us to animate the text's position */
+    animation: animateText 5s linear infinite;
+  }
+  
+  @keyframes animateText {
     0% {
-        transform: scale(1);
+      left: -100%; /* Initial position of the text outside the screen on the left */
     }
-
-    100%{
-        transform: scale(1.1);
+    100% {
+      left: 100%; /* Final position of the text outside the screen on the right */
     }
-    
-}
+  }
