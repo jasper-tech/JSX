@@ -36,6 +36,12 @@ return(
     );
   } */
 
+  const App = () =>{
+    return (
+      <h1>Compax</h1>
+    )
+  }
+
   
     
 
