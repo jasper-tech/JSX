@@ -1,4 +1,4 @@
-.App{
+/*.App{
     background-color: black;
     height: 100vh;
     display: flex;
@@ -6,19 +6,19 @@
     align-items: center;
 
 
-}
+}*/
 
-.animated-heading {
+/*.animated-heading {
     color: blue;
-    position: absolute; /* Allows us to animate the text's position */
+    position: absolute;  Allows us to animate the text's position
     animation: animateText 5s linear infinite;
   }
   
-  @keyframes animateText {
+ /* @keyframes animateText {
     0% {
-      left: -100%; /*Text enters the screen on the left */
+      left: -100%; /* Text enters the screen on the left 
     }
     100% {
-      left: 100%; /* Text goes out through the right */
+      left: 100%; /* Text goes out through the right 
     }
   }
