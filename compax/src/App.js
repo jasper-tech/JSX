@@ -3,7 +3,7 @@ import  useEffect from "react";
 
 function App() {
     const containerStyle = {
-      backgroundColor: 'cyan',
+      backgroundColor: 'black',
       width: '100%',
       height: '100vh',
       display: 'flex',
@@ -12,8 +12,9 @@ function App() {
     };
   
     const titleStyle = {
-      color: 'white',
+      color: 'red',
       textAlign: 'center',
+      
     };
   
     return (
