@@ -1,4 +1,26 @@
 .App{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    justify-content :center;
+    align-items: center;
 
+
+}
+
+.animated-heading{
+    color: red;
+    animation: animateText Is infinite alternate;
+
+}
+
+@keyframes animateText {
+    0% {
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.1);
+    }
     
 }

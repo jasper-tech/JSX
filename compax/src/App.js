@@ -1,5 +1,17 @@
 import React, { Component } from "react";
 import  useEffect from "react";
+import './App.css';
+
+
+function App (){
+
+return(
+  <div className = "App">
+    <h1 className = "animated-heading">Compax</h1>
+  </div>
+)
+
+}
 
  /*function App() {
     const containerStyle = {
@@ -23,6 +35,7 @@ import  useEffect from "react";
       </div>
     );
   } */
+
   
     
 
