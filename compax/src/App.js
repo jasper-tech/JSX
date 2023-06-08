@@ -9,7 +9,7 @@ return(
   <div className = "App">
     <h1 className = "animated-heading">Compax</h1>
   </div>
-) 
+) /*jsx*/
 
 }
 

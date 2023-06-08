@@ -9,7 +9,7 @@
 }
 
 .animated-heading {
-    color: red;
+    color: blue;
     position: absolute; /* Allows us to animate the text's position */
     animation: animateText 5s linear infinite;
   }
