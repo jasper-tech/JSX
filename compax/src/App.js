@@ -43,6 +43,16 @@ return(
       <h1>Compax</h1>
     )
   }
+  function App(props){
+    const currDate = new Date();
+
+    return(
+      <div>
+        <h1>New App</h1>
+        <h2>The time now is{currDate.toLocaleTimeString()}. </h2>
+      </div>
+    )
+  }
 
 
   
