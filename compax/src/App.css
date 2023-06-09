@@ -11,14 +11,14 @@
 .animated-heading {
     color: rgb(75, 53, 53);
     position: absolute;  /*Allows us to animate the text's position */
-    animation-play-state:  animateText 5s linear infinite;
+    animation:  animateText 5s linear infinite;
   }
   
   @keyframes animateText {
     0% {
-      left: -50%; /* Text enters the screen on the left */
+      left: -100%; /* Text enters the screen on the left */
     }
     100% {
-      left: 50%; /* Text goes out through the right */
+      left: 100%; /* Text goes out through the right */
     }
   }
