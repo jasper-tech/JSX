@@ -1,58 +1,65 @@
 import React from "react";
 import  useEffect from "react";
-// import './App.css';
+ import './App.css';
 
 
-/*function App (){
+function App (){
 
 return(
   <div className = "App">
     <h1 className = "animated-heading">Compax</h1>
   </div>
-) /*jsx*/
+);
+
+function edit () {
+  const containerStyle = {
+    backgroundColor: 'black',
+    width: '100%',
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
+
+  const titleStyle = {
+    color: 'red',
+    textAlign: 'center',
+    
+  };
+
+  return (
+    <div style={containerStyle}>
+      <h1 style={titleStyle}>Compax</h1>
+    </div>
+  );
+}
+
+}
 
 
 
- /*function App() {
-    const containerStyle = {
-      backgroundColor: 'black',
-      width: '100%',
-      height: '100vh',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-    };
-  
-    const titleStyle = {
-      color: 'red',
-      textAlign: 'center',
-      
-    };
-  
-    return (
-      <div style={containerStyle}>
-        <h1 style={titleStyle}>Compax</h1>
-      </div>
-    );
-  } */
-
-
-  const App = () =>{
-
-    return (
-      <h1>Compax</h1>
-    )
-  }
-  function App(props){
-    const currDate = new Date();
-
-    return(
+    
+  /*function App (props){
+     const currDate = new Date();
+     return(
       <div>
         <h1>New App</h1>
         <h2>The time now is{currDate.toLocaleTimeString()}. </h2>
       </div>
     )
-  }
+
+  }*/
+
+
+
+  
+   
+    
+  
+  
+  
+  
+    
 
 
   

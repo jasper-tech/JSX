@@ -1,24 +1,24 @@
-/*.App{
-    background-color: black;
+.App{
+    background-color: rgb(28, 35, 36);
     height: 100vh;
     display: flex;
     justify-content :center;
     align-items: center;
 
 
-}*/
+}
 
-/*.animated-heading {
-    color: blue;
-    position: absolute;  Allows us to animate the text's position
-    animation: animateText 5s linear infinite;
+.animated-heading {
+    color: rgb(75, 53, 53);
+    position: absolute;  /*Allows us to animate the text's position */
+    animation: animateText 4s linear infinite;
   }
   
- /* @keyframes animateText {
+  @keyframes animateText {
     0% {
-      left: -100%; /* Text enters the screen on the left 
+      left: -120%; /* Text enters the screen on the left */
     }
     100% {
-      left: 100%; /* Text goes out through the right 
+      left: 80%; /* Text goes out through the right */
     }
   }
