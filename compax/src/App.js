@@ -18,7 +18,7 @@ function edit () {
     height: '100vh',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'top',
   };
 
   const titleStyle = {
