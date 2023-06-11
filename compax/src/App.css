@@ -12,7 +12,7 @@
 .animated-heading {
     color: rgb(75, 53, 53);
     position: absolute;  /*Allows us to animate the text's position */
-    transform: rotate(left);
+    transform: rotate(left);}
     /*animation:  animateText 5s linear infinite;
     
   }
