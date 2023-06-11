@@ -19,9 +19,9 @@
   
   @keyframes animateText {
     0% {
-      left: -100%; /* Text enters the screen on the left */
+      left: -90%; /* Text enters the screen on the left */
     }
     100% {
-      left: 100%; /* Text goes out through the right */
+      left: 90%; /* Text goes out through the right */
     }
   } 
