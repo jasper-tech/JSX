@@ -14,6 +14,7 @@
     position: absolute;  /*Allows us to animate the text's position */
     transform: rotate(left);
     animation:  animateText 5s linear infinite;
+    backdrop-filter: blur(10px);
     
   }
   
