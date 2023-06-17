@@ -4,52 +4,19 @@ import  useEffect from "react";
 
 
 function App (){
-
-return(
-  <div className = "App">
-    <h1 className = "animated-heading">Compax</h1>
-  </div>
-);
-
-function edit () {
-  const containerStyle = {
-    backgroundColor: 'lemon greem',
-    width: '100%',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  };
-
-  const titleStyle = {
-    color: 'red',
-    textAlign: 'center',
-    
-  };
-
-  return (
-    <div style={containerStyle}>
-      <h1 style={titleStyle}>Compax</h1>
+  return(
+    <div className = "App">
+      <h1 className="title" >Compax</h1>
+      <p className = "animated-heading">........</p>
     </div>
-  );
-}
-
-}
-
-
-
     
-  /*function App (props){
-     const currDate = new Date();
-     return(
-      <div>
-        <h1>New App</h1>
-        <h2>The time now is{currDate.toLocaleTimeString()}. </h2>
-      </div>
-    )
+  );
+    
+  
+}
 
-  }*/
 
+  
 
 
   
