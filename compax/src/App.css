@@ -1,47 +1,23 @@
-.App{
-    background-color: grey;
-    height: 100vh;
-    display: flex;
-    align-items :center;
-   
-    
-
-
-}
-.title{
-  display: block;
-  font-weight: 700;
-  font-size: 80px;
-  justify-content: top;
-  height: 100px;
-  margin:25;
-  background-image: linear-gradient(90deg, red, yellow);
-  color: white;
-  border-radius: 50px;
-
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
 }
 
-.animated-heading {
-    background-image: linear-gradient(90deg, red, yellow);
-    position: absolute;  /*Allows us to animate the text's position */
-    transform: rotate(left);
-    animation:  animateText 5s linear infinite;
-    background: transparent;
-    color: white;
-    
+.login-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
-    
-  }
-  
-  @keyframes animateText {
-    0% {
-      left: -30%; /* Text enters the screen on the left */
-    }
-    100% {
-      left: 100%; /* Text goes out through the right */
-    }
-  } /* still running tests*/
+/* Additional styling for inputs and button */
+input,
+button {
+  margin-bottom: 10px;
+}
 
- 
 
  
