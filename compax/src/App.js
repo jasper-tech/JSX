@@ -6,7 +6,7 @@ import  useEffect from "react";
   return (
     <div className="login-container">
       <div className="login-card">
-        <h2>Login</h2>
+        <h2>Compax App</h2>
         <form>
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
@@ -16,21 +16,5 @@ import  useEffect from "react";
     </div>
   );
 };
-
-
-
-  
-
-
-  
-   
-    
-  
-  
-  
-  
-    
-
-
 
 export default Login;

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #FFA8E0, #8ED2FF);
+  background: linear-gradient(135deg, green, #8ED2FF, white);
  
 }
 
@@ -11,19 +11,20 @@
   height: 320px;
   width: 300px;
   padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: none;
+  box-shadow: 0 2px 4px black;
  
 }
 
 /* Additional styling for inputs and button */
 input {
   margin-bottom: 10px;
-  background: linear-gradient(135deg, #FFA8E0, #8ED2FF);
+  background: linear-gradient(135deg,rgb(33, 182, 33), #8ED2FF, white);
   border-radius: 50px;
   width: 200px;
   height: 25px;
   margin-top: 25px;
+  border: none;
 
 
 
@@ -31,15 +32,28 @@ input {
 }
 
 ::placeholder{
-  color: blue;
+  color: black;
 
 }
  button{
   border-radius: 50px;
   width: 200px;
   margin-top: 15px;
-  ;
- 
+  font-size: 20px;
+  background: linear-gradient(135deg, rgb(33, 182, 33), #8ED2FF, white);
+  
+ }
+ button:hover{
+  color: green;
+  box-shadow: -6px -6px 12px #05b94a, 
+  6px 6px 12px #0bd157
+}
+
+ h2{
+  font-weight: 700;
+  font-size: 30px;
+  color:dimgrey;
+
  }
 
  
