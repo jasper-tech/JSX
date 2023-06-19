@@ -8,10 +8,18 @@ import  useEffect from "react";
       <div className="login-card">
         <h2>Compax App</h2>
         <form>
-          <input type="text" placeholder="Username" />
-          <input type="password" placeholder="Password" />
+          <p>Username or Email </p>
+          <input type="text" placeholder="" className="placeholder"/>
+          <a href="#">Forgot Username?</a>
+          <p>Enter Password</p>
+          <input type="password" placeholder="" className="placeholder" />
+          <a href="#">Forgot Password?</a>
+          <p></p>
           <button type="submit">Login</button>
         </form>
+      </div>
+      <div className="signup">
+        
       </div>
     </div>
   );
