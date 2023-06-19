@@ -32,7 +32,5 @@ import  useEffect from "react";
     
 
 
-  
-    
 
-export default App;
+export default Login;
