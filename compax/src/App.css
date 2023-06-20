@@ -8,7 +8,7 @@
 }
 
 .login-card {
-  height: 350px;
+  height: 400px;
   width: 300px;
   padding: 10px;
   border-radius: none;
@@ -40,6 +40,7 @@ input {
 
 }
  button{
+  color: white;
   border-radius: 75px;
   width: 300px;
   margin-top: 10px;
@@ -70,8 +71,10 @@ input {
  }
 
  .signup{
-  background-color:grey;
-  margin-top: 15px;
+  margin-top: 35px;
+  font-size: 20px;
+  height: 50px;
+  color:dimgrey;
   
   
  }
