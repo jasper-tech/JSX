@@ -16,12 +16,11 @@ import  useEffect from "react";
           <a href="#">Forgot Password?</a>
           <p></p>
           <button type="submit">Login</button>
+          <p><div className="signup">New to compax? <a href="#">SignUp</a></div></p>
         </form>
       </div>
-      <div className="signup">
-        
       </div>
-    </div>
+      
   );
 };
 
